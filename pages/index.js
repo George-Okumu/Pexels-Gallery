@@ -36,7 +36,7 @@ export default function Home({ data }) {
         </h1>
           <div className="flex justify-center pb-4 ">
             
-            <form onClick={handleSubmit}>
+            <form>
               <div class="p-8">
                 <div class="bg-white flex items-center rounded-full shadow-xl">
                   <input class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" id="search" type="text" value={query}
