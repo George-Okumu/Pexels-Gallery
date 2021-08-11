@@ -55,7 +55,7 @@ export default function Home({ data }) {
           <ToastContainer/>
           <div className="pl-2 pr-2 flex justify-center">
             <div className="grid grid-cols-3 gap-2">
-              {/* {
+              {
                 photos.map((pic) => (
                   <div key={pic.id} className="overflow-hidden shadow bg-white rounded hover:bg-purple-700">
                     <Image src={pic.src.original} height="500" width="400" alt="Picture" />
@@ -63,7 +63,7 @@ export default function Home({ data }) {
 
 
                 ))
-              } */}
+              }
             </div>
           </div>
 
